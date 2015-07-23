@@ -2,6 +2,17 @@
 # Combine function for Zip Code Locations to FIPS areas
           
 fipszips <- function( stateAbbrev = stateAbbrev ){
+
+
+          packages <- c("data.table", "zipcode") # List of libraries 
+
+          runLib <- function(packages = packages) {
+                  packagesCheck <- packages[!(packages %in% installed.packages()[,"Package"])]
+                  if(length(packagesCheck)) {install.packages(packagesCheck)}; rm(packagesCheck)
+                  lapply(packages, function(x) {do.call("require", list(x))})
+              }
+    
+          runLib(packages)
   
           stateAbbrev <- as.character(stateAbbrev)
 
