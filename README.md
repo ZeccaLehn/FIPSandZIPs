@@ -40,4 +40,4 @@ is included for all zipcodes. Use at your own risk.
 
 
 Note: Where some state abbreviations, state names, and county names do not match, 
-an NA may signify a zip code boundary which overlaps two distinct 
+an NA may signify a zip code boundary which overlaps two distinct legal boundaries -- e.g., State, County.
