@@ -1,5 +1,7 @@
 # FIPSandZIPs : Function for FIPS and Zip Codes to Zip Code lat/long
 
+Built for THE CRUNCH CIRCLE and [NewMet Data](http://newmetdata.com/) collaborators -- Summer 2015 Data Science Bootcamp in LA. 
+
 The fipszips() function is used to aggregate best available Federal Information 
 Processing Standard (FIPS) and Zone Improvement Plan(ZIP) codes, matched by 
 State, County, Census Place, and zipcode boundaries. Latitude and Longitude 
