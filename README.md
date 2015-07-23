@@ -17,7 +17,8 @@ is included for all zipcodes. Use at your own risk.
 `> fullTable` # Full Table by State
 
 
-              place         county stateAbbreviation      state stateFips countyFips placeFips         censusPlaceType placeSym
+ ```
+                place         county stateAbbreviation      state stateFips countyFips placeFips         censusPlaceType placeSym
    1: Acalanes Ridge   Contra Costa                CA CALIFORNIA         6         13       135 Census Designated Place        S
     2:         Acampo    San Joaquin                CA CALIFORNIA          6         77      156  Census Designated Place       S
     3:          Acton    Los Angeles                CA CALIFORNIA         6         37       212 Census Designated Place        S
@@ -34,7 +35,7 @@ is included for all zipcodes. Use at your own risk.
     2: 95220 38.20019 -121.2351
     3: 93510 34.49724 -118.1895
     4: 92031 34.58747 -117.4063
-    5: 92301 34.64169 -117.5080
+    5: 92301 34.64169 -117.5080```
 
 
 
