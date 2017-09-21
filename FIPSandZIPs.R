@@ -179,7 +179,28 @@ fipszips <- function( stateAbbrev = stateAbbrev ){
               
 }
 
+
+### Single States
 # fipszips("WA") # Or other state abbreviation
 # fullTable
 
 
+### For All States
+# fipsUS <- NULL
+# for (i in trimws(as.character(stateTable$stateAbbreviation))) {
+#   # Function to check error
+#   possibleError <- tryCatch(
+#     fipszips( i ),
+#     error=function(e) e
+#   )
+#   
+#   if(inherits(possibleError, "error")) next
+#   
+#   #Stores clean data
+#   fipsUS <- rbind(fipsUS, fullTable)
+#   
+# } 
+# 
+# library(dplyr)
+# fipsUS$place %>% unique %>% length # 32,946
+# fipsUS[fipsUS$place=="O'Fallon"]
